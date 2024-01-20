@@ -25,7 +25,7 @@ python portpirate.py 192.168.1.1 -p 1-1000
 
 ### Command-Line Arguments
 - `target`: Specify the target IP address or hostname.
-- `-p`, `--ports`: Specify port(s) to scan. Scan a single port, a comma separated list of ports, a range of ports or use the keyword \\"all\" to scan all 65,535 ports.
+- `-p`, `--ports`: Specify port(s) to scan. Scan a single port, a comma separated list of ports, a range of ports or use the keyword \"all\" to scan all 65,535 ports.
 - `-t`, `--threads`: Specify the number of threads to use (default=50).
 - `-o`, `--timeout`: Specify timeout for port connection attempts.   
 
