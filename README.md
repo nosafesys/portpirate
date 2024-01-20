@@ -1,5 +1,5 @@
 
-# PortPirate: A Python Port Scanner
+# PortPirate
 
 ## Introduction
 PortPirate is a versatile port scanning tool written in Python. It is designed to scan a target host for open ports quickly and efficiently. Utilizing multithreading, PortPirate can perform scans on multiple ports concurrently, making it a powerful tool for network administrators and cybersecurity enthusiasts.
