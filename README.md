@@ -1,2 +1,38 @@
-# portpirate
-A lightweight, multithreaded port scanner written in Python.
+
+# PortPirate: A Python Port Scanner
+
+## Introduction
+PortPirate is a versatile port scanning tool written in Python. It is designed to scan a target host for open ports quickly and efficiently. Utilizing threading and socket programming, PortPirate can perform scans on multiple ports concurrently, making it a powerful tool for network administrators and cybersecurity enthusiasts.
+
+## Requirements
+- Python 3.x
+- Additional Python packages: `socket`, `sys`, `threading`, `datetime`, `argparse`, `subprocess`, `time`, `colorama`, `concurrent.futures`, `queue`
+
+## Installation
+Clone the repository or download the script directly. Ensure that you have Python 3.x installed on your system.
+
+```bash
+git clone https://github.com/your-repository/PortPirate.git
+cd PortPirate
+```
+
+## Usage
+To use PortPirate, run the script with the target IP address or hostname and specify the port range. For example:
+
+```bash
+python portpirate.py -t 192.168.1.1 -p 1-1000
+```
+
+### Command-Line Arguments
+- `-t` or `--target`: Specify the target IP address or hostname.
+- `-p` or `--ports`: Define the port range (e.g., 1-1000).
+- Additional options and flags can be viewed with `-h` or `--help`.
+
+## Contributing
+Contributions to PortPirate are welcome. Please fork the repository, make your changes, and submit a pull request.
+
+## License
+PortPirate is released under the MIT License. See the LICENSE file in the repository for more details.
+
+## Contact
+For support, questions, or feedback, please contact [Your Email](mailto:your-email@example.com).
